@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleus.css">
+    <title>About Us</title>
+</head>
+
+<body>
+    <section id="company-info">
+        <header id="fix">
+            <h1>About Rems</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fruits.html">Fruits</a></li>
+                    <li><a href="vegetables.html">Vegetables</a></li>
+                    <li><a href="diets.html">Healthy Diets</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </header> <br>
+        <p>We are committed to helping our clients achieve their weight-loss goals through personalized fruit and
+            vegetable-based diets.</p>
+
+    </section>
+    <div class="us">
+        <header>
+            <h2>Contact us using the form </h2>
+        </header>
+
+        <form method="post" action="" enctype="multipart/form-data">
+
+            <fieldset>
+
+                <legend>Info</legend>
+                <label for="Name">Name</label><br>
+                <input type="text" name="Name" id="Name" required> <br><br>
+
+                <label for="Surname">Surname</label><br>
+                <input type="text" name="Surname" id="Surname"> <br><br>
+
+                <label for="E-mail">E-mail</label><br>
+                <input type="text" name="E-mail" id="E-mail" required> <br><br>
+
+                <label for="Pays">Pays</label><br>
+                <select id="Pays" name="Pays">
+                    <optgroup label="Europe">
+                        <option value="Fr">France</option>
+                        <option value="En">England</option>
+                        <option value="Jp">Japan</option>
+                    </optgroup>
+                </select><br>
+                <br>
+
+                <label for="choix">Favorite Regime</label><br><br>
+                <input type="checkbox" name="choix" checked>Fruits
+                <input type="checkbox" name="choix" checked>Vegeatable <br>
+                <input type="checkbox" name="choix" checked>Mixed
+                <input type="checkbox" name="choix" checked>None <br><br>
+
+                <label for="Message">Message</label><br>
+                <input type="text" name="Message" id="Message"> <br><br>
+        </form>
+        </fieldset>
+        <input type="submit" Send>
+
+    </div>
+
+    <footer>
+        <p>© 2024 Weight-Loss Diets</p>
+    </footer>
+</body>
+
+</html>

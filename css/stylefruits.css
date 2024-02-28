@@ -1,0 +1,172 @@
+#fruits-info {
+    nav ul li a:hover {
+        color: #bd5f00;
+    }
+    header {
+        color: #000;
+        background-color: rgb(247, 178, 89);
+        height: 10%;
+        width: 90%;
+    }
+
+    p {
+        padding: 0.5rem;
+        margin-top: 5rem;
+    }
+}
+
+.fruits {
+    header {
+        color: #000000;
+        background-color: rgb(247, 178, 89);
+        width: 95%;
+    }
+
+    padding: 5vh;
+
+    img {
+        padding: 2vh;
+    }
+
+    p {
+        padding: 2vh;
+    }
+
+    #first {
+        font-size: 125%;
+        font-style: oblique;
+    }
+
+    summary {
+        color: rgb(247, 178, 89);
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    /* Light gray background */
+    color: #ffffff;
+
+    /* Dark text color */
+    p {
+        size: 300%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 100px;
+}
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+a {
+    color: #ff0000;
+}
+
+section {
+
+    margin: 0 auto;
+    padding: 2.1rem;
+    background-image: url(/img/home.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    line-height: 2;
+}
+
+footer {
+    text-align: center;
+
+    background-color: #fc7474;
+    color: #fff;
+    padding: 1.5vh;
+}
+
+.fruits {
+    background: #fdffe0;
+    color: #000;
+    border-spacing: 10%;
+}
+
+.fruits header {
+    color: #000000;
+}
+
+#fix {
+    position: fixed;
+}
+
+.e {
+    background-color: #ffffff;
+    border-radius: 30%;
+
+    img {
+        float: left;
+    }
+}
+
+.o {
+    background-color: #ffffff;
+    border-radius: 10%;
+    align-content: flex-start;
+
+
+}
+
+     /* Container for the image and text */
+     .container {
+        display: flex;
+        align-items: center; /* Vertically align content */
+        background-color: #fefff2;
+        width:fit-content;
+        img{
+            border-radius: 50%;
+        }
+        
+    }
+
+    /* Style for the image */
+    .image {
+        padding-right: 20px; /* Add some spacing between image and text */
+        align-items: center;
+      
+    }
+
+    .text {
+        /* flex: 1; Take up 50% of the container width */
+        justify-content: center;
+        width: 80%;
+    }
