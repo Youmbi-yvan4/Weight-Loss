@@ -132,7 +132,8 @@ footer {
 
 img {
     border-radius: 50%;
-    width: 50%;
+    width: 25%;
     align-self: center;
+    margin-left: 35%;
 
 }
